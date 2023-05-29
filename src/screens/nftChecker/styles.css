@@ -1,0 +1,74 @@
+.nft-checker h5 {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.nft-checker input {
+    min-width: 600px;
+    margin: 20px 0;
+    padding: 10px 20px;
+    border: 2px solid #f2a900;
+    background-color: #000;
+    color: #767676;
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: #313131;
+}
+
+:-moz-placeholder {
+    color: #313131;
+}
+
+::-moz-placeholder {
+    color: #313131;
+}
+
+:-ms-input-placeholder {
+    color: #313131;
+}
+
+::-ms-input-placeholder {
+    color: #313131;
+}
+
+::placeholder {
+    color: #313131;
+}
+
+.nft-checker button {
+    margin-top: 25px;
+    background-color: #000;
+    border: 2px solid #f2a900;
+    color: #f2a900;
+    padding: 8px 16px;
+}
+
+.nft-checker button a{
+    text-decoration: none;
+    color: #f2a900;
+}
+
+.nft-checker>input.success {
+    border: 2px solid green;
+    color: green;
+}
+
+.nft-checker>input.failed {
+    border: 2px solid red;
+    color: red;
+}
+
+.nft-checker>span {
+    margin-top: 15px;
+}
+
+.nft-checker>span.failed {
+    color: red;
+}
+
+.nft-checker>span.success {
+    color: green;
+}
